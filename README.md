@@ -1,3 +1,38 @@
+# Prueba para Panzofi
+Proyecto de frontend realizado con React siguiendo las actividades indicadas en la prueba para vacante de desarrollador.
+
+# Resumen
+
+La aplicación es un breve "mockup" similar a Reddit donde la funcionalidad principal es la creación de comentarios y respuesta
+a estos mismos con el sistema de calificación para los comentarios y la publicación, también incluye un sistema muy básico para
+la traducción de la página. Hace uso de un sistema de rutas básico pero necesario para la aplicación y sigue una distribución
+de carpetas y archivos estándar.
+
+# Aspectos claves
+
+La aplicación hace uso de hooks para simular peticiones HTTP, de esta manera es posible tener cierto grado de dinamismo incluso
+trabajando con datos estáticos, también facilita el paso a un escenario real dado que solo es cuestión de mapear los objetos que
+devuelve el backend.
+
+En el apartado visual se usa Semantic-UI para usar componentes preconstruios e íconos a la medida con el fin de lograr un 
+sitio agradable y elegante.
+
+La aplicación cumple con cierto grado de interactividad dado que hay posibilidad de puntuar un post y todos los comentarios, también
+es posible responder a los comentarios de manera indefinida y agregar los comentarios necesarios al post manteniendo el puntaje de cada
+uno (post, comentario, respuesta a comentario). Los datos son mapeados simulando la respuesta a una petición al backend.
+La puntuación también está muy similar al sitio Reddit, es decir que el usuario solo puede dar un voto a cada elemento, por ejemplo al 
+post solo puede dar un voto, positivo o negativo, evitando que se den votos de manera indefinida.
+
+El sistema de traducción es muy sencillo, usando i18n se puede traducir el contenido a través del uso de un diccionario con los términos
+indicados. Dentro de las funcionalidades u opciones que hay para cubrir este punto esta es la más barata dado que otras opciones 
+que realizan la traducción directa como Google Translate API son costosas o requieren datos los cuáles son imposibles de subir a un
+repositorio como el APIKEY.
+
+# Ejecutar el proyecto
+Una vez clonado el proyecto  ejecutar 
+
+### npm i
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
